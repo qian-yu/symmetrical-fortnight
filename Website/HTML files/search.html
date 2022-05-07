@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS files/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Work+Sans:700,800" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar-fixed-top">
+            <a href="home-page.html">
+                <img class="logo" src="Resources/BarterLogo.png"></img>
+                <h1>Barter</h1>
+            </a>
+
+            <a href="new-post.html" ><h3 class="menu-item">New Post</h3> </a>
+            <a href="messaging.html"><h3 class="menu-item">Messages</h3></a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search..">
+                <a href="search.html" ><button type="button" class="button">Search</button></a>
+
+            </div>
+            <ul id="menu">
+                
+                <li class="parent">
+                    <img src="Resources/usericon.png">
+
+                <ul class="child">			
+                    <li><a href="my-profile.html">Profile</a></li>
+                    <li class="parent2"><a href="my-posts.html">My posts <span class="expand">»</span></a>
+                        <ul class="child">
+                        <li><a href="my-posts.html">All</a></li>
+                        <li><a href="my-posts.html">Draft</a></li>
+                        <li><a href="my-posts.html">Complete</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="saved-posts.html">Saved Posts</a></li>
+                </ul>
+                </li>
+            </ul>
+            
+            
+            </div>
+        </nav>
+        <article>
+            <h2>Search results for: Sofa bed</h2>
+            <div class="dropdowns">
+                <select id="Filter" name="Filter">
+                    <option value="all">Filter</option>
+                    <option value="request">Request Ads</option>
+                    <option value="offer">Offer Ads</option>
+                </select>
+        
+                <select id="Sortby" name="Sortby" class="sort-dropdown">
+                    <option value="sort">Sort by</option>
+                    <option value="featured">Featured</option>
+                    <option value="location">Distance from me</option>
+                    <option value="rating">Highest rated users</option>
+                </select>
+            </div>
+            <a href="details.html">
+                <div class="results-row">
+                    <div class="Card">
+                        <h3 class="item-title">Fantasic Furniture sofa bed</h3>
+                        <div class="item-info">
+                            <table>
+                                <tr>
+                                    <td> <img class="location-icon icon" src="resources/locationicon.png"></img></td>
+                                    <td> <p class="item-location">Camperdown, Sydney</p></td>
+                                    <td> <img class="user-icon icon" src="resources/usericon.png"></img></td>
+                                    <td> <p class="item-user">John_Doe</p></td>
+                                    <td> <img class="rating-icon" src="resources/4-5stars.png"></img></td>
+                                </tr>
+                            </table>
+                            
+                        </div>
+                        <img class="item-img" src="resources/sofabed/sofabed1.jpeg"></img>
+                    </div>
+                </div>
+            </a>
+            <a href="details.html">
+                <div class="results-row">
+                    <div class="Card">
+                        <h3 class="item-title">Fantasic Furniture sofa bed</h3>
+                        <div class="item-info">
+                            <table>
+                                <tr>
+                                    <td> <img class="location-icon icon" src="resources/locationicon.png"></img></td>
+                                    <td> <p class="item-location">Camperdown, Sydney</p></td>
+                                    <td> <img class="user-icon icon" src="resources/usericon.png"></img></td>
+                                    <td> <p class="item-user">John_Doe</p></td>
+                                    <td> <img class="rating-icon" src="resources/4-5stars.png"></img></td>
+                                </tr>
+                            </table>
+                            
+                        </div>
+                        <img class="item-img" src="resources/sofabed/sofabed1.jpeg"></img>
+                    </div>
+                </div>
+            </a>
+        </article>
+    </body>
+    <footer>
+        <div id="footer-contents">
+            <a href="about-us.html"><p>About us</p></a>
+            <a href="contact-us.html"><p>Contact us</p></a>
+            <a href="privacy-policy.html"><p>Privacy Policy</p></a>
+            <a href="sitemap.html"><p>Site Map</p></a>
+            <a href="video.html"><p>Presentation Video</p></a>
+        </div>
+    </footer>
+</html>

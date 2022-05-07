@@ -1,0 +1,166 @@
+.navbar-fixed-top {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    color: black;
+    background-color:#8A9EA1;
+    height: 10%;
+    align-items: center;
+    font-size: larger;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+form{
+  background-color: #e3e3e3;
+  margin-left: 500px;
+  border: 1px solid #9c9c9c;
+  border-radius: 10px;
+  width: 410px;
+  padding: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.logos{
+  width: 100px;
+  padding: 5px 0;
+  margin: 0 0 0 -15px;
+}
+.head{
+  padding-left: 10px;
+}
+
+input{
+  outline: none;
+  border: 1px solid #9c9c9c;
+  border-radius: 5px;
+  padding: 0 10px;
+  height: 35px;
+  font-size: 15px;
+}
+input:focus{
+  border: 1.5px solid #FA7A50;
+}
+
+
+
+.email{
+  display: block;
+  
+}
+input[type="fname"]{
+  display: block;
+  margin: 0px 0 0 10px;
+}
+input[type="lname"]{
+  display: block;
+  margin: 0px 0 0 10px;
+}
+
+
+input[type="date"]{
+  width: 160px;
+  margin: 0px 50px 0 30px;
+}
+
+input[type="email"]{
+  display: block;
+  width: 370px;
+  margin: 10px 0 0 10px;
+}
+
+.date{
+  position: absolute;
+  right: 710px;
+  bottom: 392px;
+}
+
+.pass{
+  display: inline-block;
+}
+
+.password{
+  display: block;
+  width: 165px;
+  margin: 0 5px 0 10px;
+}
+label{
+  position: relative;
+  font-family:roboto;
+  color: #555;
+  font-size: 15px;
+  pointer-events: none;
+  left: 20px;
+  top: -28px;
+  transition: .2s all;
+}
+input:focus ~label,
+input:valid ~ label{
+  top: -49px;
+  left: 15px;
+  background: #fff;
+  padding: 0 5px;
+  font-size: 10px;
+  color: #FA7A50;
+}
+/* a{
+  position: relative;
+  font-family: roboto;
+  text-decoration: none;
+  display: block;
+} */
+.line1{
+  font-size: 12px;
+  margin: -30px 0 0 15px;
+}
+.line2{
+  color: #1144ed;
+  font-size: 15px;
+  margin: 20px 0 20px 15px;
+}
+.line3{
+  font-size: 12px;
+  margin: -10px 0 0 15px;
+  width: 310px;
+}
+.line4{
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 145px;
+  color: #FA7A50;
+  display: inline-block;
+  font-family: arial rounded mt;
+}
+
+input[type="submit"]{
+  background:  #4971f6;
+  color: #fff;
+  border: none;
+  padding:10px 30px;
+  border-radius: 5px;
+  margin:  40px 0 30px 180px;
+  cursor: pointer;
+  font-size: 15px;
+}
+input[type="submit"]:hover{
+  background: #FA7A50;
+}
+
+button {
+    background-color: #FA7A50;
+    padding: 15px 32px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.links {
+  align-items: center;
+}

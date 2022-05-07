@@ -1,0 +1,121 @@
+
+
+p {
+    font-family: Merriweather, serif;
+    font: 300;
+    font-size: medium;
+    font-weight: 300;
+}
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+body {
+    background-color: white;    
+    color: black;
+    font-family: Helvetica;
+}
+article {
+    background-color: #e3e3e3;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 1em;
+}
+.button {
+    background-color: #FA7A50;
+    padding: 15px 32px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+footer {
+    position:absolute;
+    left: 0;
+    width: 100%;
+    color: #e3e3e3;
+    background-color: #515D60;
+}
+#footer-contents {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+/* card preview */
+.col{
+    flex-basis: 50%;
+  }
+  
+  .card1{
+    width: 180px;
+    height: 260px;
+    border-radius:10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image:url(./CSSResources/sofabed/sofabed1.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+  }
+  
+  .card2{
+    width: 180px;
+    height: 260px;
+    display: inline-block;
+    border-radius:10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image:url(./CSSResources/wand_sample.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .card3>p{
+    color: #839294;
+}
+  .card3{
+    width: 180px;
+    height: 260px;
+    display: inline-block;
+    border-radius:10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image:url(./CSSResources/Switch_Sample.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .card4{
+    width: 180px;
+    height: 260px;
+    display: inline-block;
+    border-radius:10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image:url(./CSSResources/trim_samle.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .over-label {
+      padding: 10px;
+      border-radius: 1em;
+      background-color: rgba(255, 255, 255, 0.84);
+  }

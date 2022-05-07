@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS files/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300|Work+Sans:700,800">
+        <link rel="stylesheet" href="CSS files/create_post.css">
+    </head>
+    <body>
+        <nav class="navbar-fixed-top">
+            <a href="home-page.html">
+                <img class="logo" src="Resources/BarterLogo.png"></img>
+                <h1>Barter</h1>
+            </a>
+
+            <a href="new-post.html" ><h3 class="menu-item">New Post</h3> </a>
+            <a href="messaging.html"><h3 class="menu-item">Messages</h3></a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search..">
+                <a href="search.html" ><button type="button" class="button">Search</button></a>
+
+            </div>
+            <ul id="menu">
+                
+                <li class="parent">
+                    <img src="Resources/usericon.png">
+
+                <ul class="child">			
+                    <li><a href="my-profile.html">Profile</a></li>
+                    <li class="parent2"><a href="my-posts.html">My posts <span class="expand">»</span></a>
+                        <ul class="child">
+                        <li><a href="my-posts.html">All</a></li>
+                        <li><a href="my-posts.html">Draft</a></li>
+                        <li><a href="my-posts.html">Complete</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="saved-posts.html">Saved Posts</a></li>
+                </ul>
+                </li>
+            </ul>
+            
+            
+            </div>
+        </nav>
+        <article>
+            <h2>Create New Post</h2>
+            <form action="success.html">
+                <div id="line1">
+                    <div class="horiz_item" style="margin-right:5px">
+                        <label for="post_title">Name</label><br>
+                        <input type="text" id="post_title" class="full_width" required>
+                    </div>
+                    <div class="horiz_item" style="margin-left:5px">
+                        <label for="post_type">Offer type</label><br>
+                        <select name="post_type" id="post_type" class="full_width" required>
+                            <option value="">[Select An Option]</option>
+                            <option value="offer">Offer</option>
+                            <option value="request">Request</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <label for="post_description">Description</label><br>
+                    <textarea class="full_width" required></textarea>
+                </div>
+                <div>
+                    <label for="image_upload">Upload any relevant images</label><br>
+                    <input type="file" id="image_upload" name="image_upload" accept="image/*" multiple required>
+                </div>
+                <input type="Submit" id="post_button" value="Post">
+            </form>
+        </article>
+    </body>
+    <footer>
+        <div id="footer-contents">
+            <a href="about-us.html"><p>About us</p></a>
+            <a href="contact-us.html"><p>Contact us</p></a>
+            <a href="privacy-policy.html"><p>Privacy Policy</p></a>
+            <a href="sitemap.html"><p>Site Map</p></a>
+            <a href="video.html"><p>Presentation Video</p></a>
+        </div>
+    </footer>
+</html>

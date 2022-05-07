@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS files/style.css">
+        <link rel="stylesheet" href="CSS files/edit.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Work+Sans:700,800" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar-fixed-top">
+            <a href="home-page.html">
+                <img class="logo" src="Resources/BarterLogo.png"></img>
+                <h1>Barter</h1>
+            </a>
+
+            <a href="new-post.html" ><h3 class="menu-item">New Post</h3> </a>
+            <a href="messaging.html"><h3 class="menu-item">Messages</h3></a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search..">
+                <a href="search.html" ><button type="button" class="button">Search</button></a>
+
+            </div>
+            <ul id="menu">
+                
+                <li class="parent">
+                    <img src="Resources/usericon.png">
+
+                <ul class="child">			
+                    <li><a href="my-profile.html">Profile</a></li>
+                    <li class="parent2"><a href="my-posts.html">My posts <span class="expand">»</span></a>
+                        <ul class="child">
+                        <li><a href="my-posts.html">All</a></li>
+                        <li><a href="my-posts.html">Draft</a></li>
+                        <li><a href="my-posts.html">Complete</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="saved-posts.html">Saved Posts</a></li>
+                </ul>
+                </li>
+            </ul>
+            
+            
+            </div>
+        </nav>
+        <article>
+          <div class="update" style="text-align: center;">
+            <form>
+              <label class="lab" for="address">Address:</label><br>
+              <input type="text" id="address" name="address"><br>
+              
+              <label class="lab" for="oldpass">Old Password:</label><br>
+              <input type="password" id="oldpass" name="oldpass"><br>
+              <label class="lab" for="newpass">New Password:</label><br>
+              <input type="password" id="newpass" name="newpass"><br>
+              <label class="lab" for="confirmpass">Confirm Password:</label><br>
+              <input type="password" id="confirmpass" name="confirmpass">
+            </form>
+            <button type="button" class="button" onclick="window.location.href='my-profile.html';">Update</button>
+          </div>
+        </article>
+    </body>
+    <footer>
+        <div id="footer-contents">
+            <a href="about-us.html"><p>About us</p></a>
+            <a href="contact-us.html"><p>Contact us</p></a>
+            <a href="privacy-policy.html"><p>Privacy Policy</p></a>
+            <a href="sitemap.html"><p>Site Map</p></a>
+            <a href="video.html"><p>Presentation Video</p></a>
+        </div>
+    </footer>
+</html>
